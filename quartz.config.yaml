@@ -1,11 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Valid Tilt
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  # No analytics for now, maybe something privacy-friendly in future.
+  # analytics:
+  #   provider: plausible
   locale: en-US
   baseUrl: validtilt.com
   ignorePatterns:
