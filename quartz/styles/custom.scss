@@ -1,3 +1,58 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Interface & navigation get the quiet sans, not the reading serif
+.sidebar,
+.explorer,
+.breadcrumb-container,
+.toc,
+nav {
+  font-family: "Open Sans", var(--bodyFont);
+}
+// One deliberate flourish at the entrance: the site title
+.page-title {
+  font-family: "Ruslan Display", var(--headerFont);
+  letter-spacing: 0.03em;
+}
+.popover .popover-inner,
+article[data-content-type="markdown"] {
+  font-size: 17px;
+  line-height: 1.65;
+}
+.center {
+  max-width: 680px;
+}
+h1,
+h2 {
+  font-weight: 700;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+// Blood-red accents instead of the default link/emphasis color
+strong {
+  color: var(--secondary);
+}
+mark {
+  background-color: var(--textHighlight);
+  color: inherit;
+}
+a.internal,
+a.external {
+  text-decoration-color: var(--tertiary);
+  &:hover {
+    color: var(--tertiary);
+  }
+}
+.tag-link {
+  background-color: var(--highlight);
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+}
+// Callouts pick up the same ember/crimson accent
+.callout {
+  border: 1px solid var(--secondary);
+  background-color: var(--highlight);
+}

@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Vollkorn SC
+      body: Literata
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f4ead9"
+        lightgray: "#e2d4b8"
+        gray: "#a89272"
+        darkgray: "#5c4630"
+        dark: "#2e2013"
+        secondary: "#7a2e2e"
+        tertiary: "#9c3d3d"
+        highlight: rgba(122, 46, 46, 0.10)
+        textHighlight: "#c9a15f66"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1c140f"
+        lightgray: "#2a1f18"
+        gray: "#6e5847"
+        darkgray: "#cbb89a"
+        dark: "#f0e6d2"
+        secondary: "#b23a3a"
+        tertiary: "#d2554f"
+        highlight: rgba(178, 58, 58, 0.15)
+        textHighlight: "#7a1f1f88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -110,6 +110,11 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      fontOrigin: googleFonts
+      header: Vollkorn SC
+      body: Literata
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
     options:
