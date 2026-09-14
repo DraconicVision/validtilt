@@ -13,7 +13,7 @@ Authentication is an accusation. It says 'you are not who you say you are', most
 
 I am me, I have always been me - that does not change when I am making external API requests.
 
-I know who I am, and I know what I want, so when I make a request to your API, respond with the correct data. What are the tokens for? I know who I am. What is the whitelisting for? I have an office. It has one IP.
+I know who I am, and I know what I want, so when I make a request to your API, respond with the correct data. What are the tokens for? What is the whitelisting for? Just block everywhere that isn't where I am (read more in a future post *'When Cloudflare rules become racist etc.'*).
 
 Some APIs have dashboards where you can manage your own tokens, permissions and IP whitelists. An achievement, kind of: they have removed the human being from the process of not trusting you.  These admin dashboards with an API on the side are not necessarily the problem, they're just rare. There will be more on this in a future post, *'Don't ask for an OTP, I might end up on Instagram'*.
 
